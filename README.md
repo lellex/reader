@@ -8,8 +8,8 @@ Ce module permet d'utiliser la fonction Text To Speech (synthèse vocale) sur n'
 
 ```
 Reader.init({
-  container: 'container',  // Id de l'élément DOM où sera insérer notre app
-  tts: ttsWebApi,          // Service TTS
-  text: 'Bonjour, bienvenue sur cette démonstration d\'une application Electron !'  // Texte à lire
+  container: 'container',  # Id de l'élément DOM où sera insérer notre app
+  tts: ttsWebApi,          # Service TTS
+  text: 'Bonjour, bienvenue sur cette démonstration d\'une application Electron !'  # Texte à lire
 });
 ```
